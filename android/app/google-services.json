@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "720830286158",
+    "project_id": "e-ticaret-116d8",
+    "storage_bucket": "e-ticaret-116d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720830286158:android:97b8fc6757b2e3ae7bf61f",
+        "android_client_info": {
+          "package_name": "com.ahmet.firebaseeticaret"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACyW4DHDobpg88StkrzhvtjKckx6Jijco"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
