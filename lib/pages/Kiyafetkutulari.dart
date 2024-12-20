@@ -24,10 +24,34 @@ class Kiyafetkutulari extends StatelessWidget {
             children: [
               Image.asset(
                 Kiyafet.resim,
-                width: _screenwdith * 0.45,
+                width: _screenwdith * 0.40,
               ),
-              Text(Kiyafet.name),
-              Text(Kiyafet.dugme),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                    child: Text(Kiyafet.name),
+                  ),
+                  Container(
+                    width: _screenwdith * 0.15,
+                    height: _screenheight * 0.073,
+                    decoration: BoxDecoration(
+                        color: Colors.black,
+                        borderRadius:
+                            BorderRadius.only(topLeft: Radius.circular(20))),
+                    child: Center(
+                      child: Text(
+                        Kiyafet.dugme,
+                        style: TextStyle(
+                            fontSize: 20,
+                            fontWeight: FontWeight.bold,
+                            color: Colors.white),
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ],
           ),
         ),
