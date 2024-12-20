@@ -22,7 +22,10 @@ class Kiyafetkutulari extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              Image.asset(Kiyafet.resim),
+              Image.asset(
+                Kiyafet.resim,
+                width: _screenwdith * 0.45,
+              ),
               Text(Kiyafet.name),
               Text(Kiyafet.dugme),
             ],
