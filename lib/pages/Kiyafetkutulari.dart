@@ -18,13 +18,11 @@ class Kiyafetkutulari extends StatelessWidget {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(20),
-          image: DecorationImage(
-            image: AssetImage(Kiyafet.resim),
-          ),
         ),
         child: Center(
           child: Column(
             children: [
+              Image.asset(Kiyafet.resim),
               Text(Kiyafet.name),
               Text(Kiyafet.dugme),
             ],
