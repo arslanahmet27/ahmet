@@ -5,20 +5,10 @@ import 'package:flutter/foundation.dart';
 class kiyafetcarti extends ChangeNotifier {
   List<kiyafet> KiyafetSpeti = [
     kiyafet(
-        dugme: "+",
-        name: "Elbise",
-        resim:
-            "lib/images/DALL·E 2024-12-16 10.41.06 - A high-quality, photorealistic image of a denim jacket with a brown corduroy collar hanging on a wooden hanger against a dark black background, minima.webp"),
+        dugme: "+", name: "Elbise", resim: "lib/images/pngwing.com (1).png"),
     kiyafet(
-        dugme: "+",
-        name: "Elbise",
-        resim:
-            "lib/images/DALL·E 2024-12-16 10.41.06 - A high-quality, photorealistic image of a denim jacket with a brown corduroy collar hanging on a wooden hanger against a dark black background, minima.webp"),
-    kiyafet(
-        dugme: "+",
-        name: "Elbise",
-        resim:
-            "lib/images/DALL·E 2024-12-16 10.41.06 - A high-quality, photorealistic image of a denim jacket with a brown corduroy collar hanging on a wooden hanger against a dark black background, minima.webp"),
+        dugme: "+", name: "Elbise", resim: "lib/images/pngwing.com (2).png"),
+    kiyafet(dugme: "+", name: "Elbise", resim: "lib/images/pngwing.com.png"),
   ];
   List<Kiyafetkutulari> userrCart = [];
 
