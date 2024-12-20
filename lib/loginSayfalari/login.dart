@@ -40,8 +40,8 @@ class _LoginState extends State<Login> {
             );
           },
         );
-        Navigator.pop(context);
       }
+      Navigator.pop(context);
     }
 
     setState(() {
